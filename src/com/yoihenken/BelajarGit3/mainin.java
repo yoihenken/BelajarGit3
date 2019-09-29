@@ -1,5 +1,8 @@
 package com.yoihenken.BelajarGit3;
 import com.yoihenken.BelajarGit3.Ningen;
+import com.yoihenken.BelajarGit3.neko;
+
+import static com.yoihenken.BelajarGit3.neko.talk;
 
 
 public class mainin {
@@ -16,9 +19,10 @@ public class mainin {
 
         Ningen babai = new Ningen(umur, nama, jabatan);
 
-        System.out.println("Nama\t: " + nama + "\numur\t: " + umur + "\nCita-cita\t: " + jabatan);
+        System.out.println("Nama\t: " + babai.getNama() + "\numur\t: " + babai.getUmmur() + "\nCita-cita\t: " + babai.getJabatan());
 
-
+        System.out.println("Neko says ");
+        talk();
 
     }
 }

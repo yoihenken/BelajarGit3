@@ -1,18 +1,22 @@
 package com.yoihenken.BelajarGit3;
+import com.yoihenken.BelajarGit3.Ningen;
+
 
 public class mainin {
     public static void main(String[] args) {
-        System.out.println("Hello Git Hub");
+        System.out.println("<<<<< Hello Git Hub >>>>>");
 
         int umur;
         String nama;
-        String cita;
+        String jabatan;
 
         umur = 10;
         nama = "Babai";
-        cita = "yutuber";
+        jabatan = "yutuber";
 
-        System.out.println("Nama\t: " + nama + "\numur\t: " + umur + "\nCita-cita\t: " +cita);
+        Ningen babai = new Ningen(umur, nama, jabatan);
+
+        System.out.println("Nama\t: " + nama + "\numur\t: " + umur + "\nCita-cita\t: " + jabatan);
 
 
 
